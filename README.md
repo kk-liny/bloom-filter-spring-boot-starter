@@ -1,6 +1,18 @@
 使用：
 
-1、引入jar包
+1、引入jar包 和 依赖
+```
+        <dependency>
+            <groupId>org.redisson</groupId>
+            <artifactId>redisson</artifactId>
+            <version>3.36.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+```
 
 2、配置文件
 ```
