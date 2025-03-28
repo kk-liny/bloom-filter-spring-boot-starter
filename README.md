@@ -3,6 +3,11 @@
 1、引入jar包 和 依赖
 ```
         <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>bloom-filter-spring-boot-starter</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
             <groupId>org.redisson</groupId>
             <artifactId>redisson</artifactId>
             <version>3.36.0</version>
